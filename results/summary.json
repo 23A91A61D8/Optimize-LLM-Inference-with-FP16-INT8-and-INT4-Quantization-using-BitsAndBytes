@@ -1,0 +1,35 @@
+{
+    "fp16": {
+        "memory_mb": 9229.43,
+        "throughput_tokens_per_sec": {
+            "batch_1": 39.22,
+            "batch_4": 139.71,
+            "batch_16": 436.03
+        },
+        "first_token_latency_ms": 29.13,
+        "perplexity": 13.0446,
+        "hellaswag_accuracy": 0.43
+    },
+    "int8": {
+        "memory_mb": 9229.5,
+        "throughput_tokens_per_sec": {
+            "batch_1": 6.9,
+            "batch_4": 24.79,
+            "batch_16": 88.52
+        },
+        "first_token_latency_ms": 189.84,
+        "perplexity": 13.0485,
+        "hellaswag_accuracy": 0.43
+    },
+    "nf4": {
+        "memory_mb": 9229.5,
+        "throughput_tokens_per_sec": {
+            "batch_1": 17.69,
+            "batch_4": 48.28,
+            "batch_16": 189.23
+        },
+        "first_token_latency_ms": 78.83,
+        "perplexity": 13.3017,
+        "hellaswag_accuracy": 0.435
+    }
+}
